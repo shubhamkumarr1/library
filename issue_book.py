@@ -5,6 +5,6 @@ def issue():
     if book_name in books:
         books.remove(book_name)
         issue_books.append(book_name)
-        print("Book assigned successfully")
+        print(f"{book_name} Book issued successfully")
     else:
-        print("Book not available")
+        print(f"{book_name} Book not available")
